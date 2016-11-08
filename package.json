@@ -1,0 +1,25 @@
+{
+  "name": "typesetter",
+  "version": "0.0.1",
+  "description": "Tools to generate Bookshelf models and migrations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kevnz/typesetter.git"
+  },
+  "keywords": [
+    "bookshelf",
+    "bookshelf.js",
+    "knex",
+    "tools"
+  ],
+  "author": "Kevin Isom <kevin.isom@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kevnz/typesetter/issues"
+  },
+  "homepage": "https://github.com/Kevnz/typesetter#readme"
+}
