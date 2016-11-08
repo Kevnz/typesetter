@@ -21,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/Kevnz/typesetter/issues"
   },
-  "homepage": "https://github.com/Kevnz/typesetter#readme"
+  "homepage": "https://github.com/Kevnz/typesetter#readme",
+  "dependencies": {
+    "pluralize": "^3.0.0",
+    "to-case": "^2.0.0",
+    "yargs": "^6.3.0"
+  }
 }
