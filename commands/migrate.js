@@ -9,7 +9,7 @@ exports.command = 'migrate <prefix>'
 exports.desc = 'Generates a migration file'
 exports.builder = {
   table: {
-    alias: 'n',
+    alias: 't',
     describe: 'The name of the table used in the migration',
     demand: false
   }
