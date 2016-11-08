@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "typesetter": "main.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Kevnz/typesetter.git"
@@ -23,6 +26,7 @@
   },
   "homepage": "https://github.com/Kevnz/typesetter#readme",
   "dependencies": {
+    "mkdirp": "^0.5.1",
     "pluralize": "^3.0.0",
     "to-case": "^2.0.0",
     "yargs": "^6.3.0"
