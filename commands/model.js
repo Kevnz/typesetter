@@ -43,8 +43,6 @@ module.exports = bookshelf.model('${name}', {
 `;
     let modelAttributes = '';
     for (let i = 0; i < attributes.length; i++) {
-      console.log(attributes[i].split(':'));
-
       const [attrName, type] = attributes[i].split(':');
       const tab = i === 0 ? '' : '    ';
       modelAttributes += `${tab}table.${getDBType(type)}('${attrName}');\n`;
