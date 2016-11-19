@@ -26,10 +26,8 @@ exports.down = function(knex, Promise) {
 };
 `;
   const sluggedname = to.slug(prefix);
-
   const path = `./migrations/${timestamp}-${sluggedname}.js`;
   mkdirp.sync(`${process.cwd()}/migrations/`);
   writeFile(path, migration);
-  console.log(`created: ${path}`);
-
+  console.log(`Migration created: ${path}`);
 }
