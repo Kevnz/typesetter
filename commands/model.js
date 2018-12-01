@@ -59,10 +59,10 @@ exports.down = function(knex, Promise) {
   return knex.schema.dropTable('${tableName}');
 };
 `;
-    mkdirp.sync(`${process.cwd()}/migrations/`);
-    mkdirp.sync(`${process.cwd()}/src/models/`);
-    const fullMigrationPath = `${process.cwd()}/migrations/${timestamp}-${formattedName}.js`;
-    const fullModelPath = `${process.cwd()}/src/models/${formattedName}.js`;
+    mkdirp.sync(`${process.cwd()}/src/migrations/`);
+    mkdirp.sync(`${process.cwd()}/src/server/models/`);
+    const fullMigrationPath = `${process.cwd()}/src/migrations/${timestamp}-${formattedName}.js`;
+    const fullModelPath = `${process.cwd()}/src/server/models/${formattedName}.js`;
     writeFile(fullMigrationPath, migration);
     writeFile(fullModelPath, model);
     console.log(`created: ${fullMigrationPath}`);
