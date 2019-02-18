@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>typesetter</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <meta name="description" content="Tools to generate Bookshelf models and migrations" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+  <div class="container">
+  <h1 id="typesetter">Typesetter</h1>
+<p>Generates models and migrations to be used with bookshelf and knex.</p>
+<h2 id="usage">Usage</h2>
+<p>With npx</p>
+<h3 id="model">Model</h3>
+<p>To generate a model and migration to go along with the model</p>
+<pre><code class="bash language-bash">npx typesetter model User firstName:string lastName:string</code></pre>
+<p>This will generate a model named user and a migration with a timestamp.</p>
+<h3 id="migration">Migration</h3>
+<pre><code class="bash language-bash">npx typesetter migrate new-feature-set</code></pre>
+<h2 id="install">Install</h2>
+<p>Global</p>
+<pre><code class="bash language-bash">npm install typesetter -g</code></pre>
+<p>Locally</p>
+<pre><code class="bash language-bash">npm install typesetter --save-dev</code></pre>
+  </div>
+</body>
