@@ -1,6 +1,8 @@
 # Typesetter
 
-Generates models and migrations to be used with bookshelf and knex.
+[![npm version](https://badge.fury.io/js/typesetter.svg)](https://badge.fury.io/js/typesetter)
+
+Generates bookshelf models and migrations to be used with bookshelf and knex.
 
 ## Usage
 
